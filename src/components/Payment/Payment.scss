@@ -22,10 +22,15 @@
             .payemnt__title {
                 flex: 0.2;
             }
-            .payment__address, .payment__details {
-                flex: 0.8;
+            .payment__address {
                 padding-left: 20px;
-                line-height: 2px;
+            }
+            .payment__details {
+                flex: 0.8;
+                padding: 20px;
+                .payment__priceContainer {
+                    padding: 20px 0;
+                }
             }
         }
     }
